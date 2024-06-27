@@ -20,5 +20,16 @@ document.querySelector('#app').innerHTML = `
     </p>
   </div>
 `
+function DisplayLeft() {
+    tab1.style.display = "flex";
+    tab2.style.display = "none";
+
+}
+
+function DisplayRight() {
+    tab2.style.display = "flex";
+    tab1.style.display = "none";
+
+}
 
 setupCounter(document.querySelector('#counter'))
